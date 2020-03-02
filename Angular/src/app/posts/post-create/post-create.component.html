@@ -1,0 +1,5 @@
+<h2>The post create app</h2>
+<textarea rows="6"[value]="newpost" #postInput></textarea>
+<hr>
+<button (click)="(onAddPost(postInput))"> Save post</button>
+<p>{{newpost}}</p>
